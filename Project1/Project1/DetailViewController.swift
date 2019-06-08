@@ -11,6 +11,8 @@ import UIKit
 class DetailViewController: UIViewController {
 
     var selectedImage: String?
+    var selectedImageTitle: String?
+
     @IBOutlet weak var imageview: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +21,7 @@ class DetailViewController: UIViewController {
             imageview.image = UIImage(named: imageToLoad)
         }
         
-        title = selectedImage
+        title = selectedImageTitle
         
         navigationItem.largeTitleDisplayMode = .never
         // Do any additional setup after loading the view.

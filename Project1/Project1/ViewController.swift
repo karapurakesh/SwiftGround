@@ -26,6 +26,7 @@ class ViewController: UITableViewController {
             }
         }
         title = "Storm Viewer"
+        pictures.sort()
         navigationController?.navigationBar.prefersLargeTitles = true
        // print(pictures)
     }
@@ -46,6 +47,7 @@ class ViewController: UITableViewController {
         
         
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+            vc.selectedImageTitle = "Picture \(indexPath.row + 1 ) of \(pictures.count)"
             vc.selectedImage = pictures[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
         }
