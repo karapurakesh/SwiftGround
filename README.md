@@ -27,4 +27,5 @@ Project 5:
           back, forward, refresh actions along with blocking unwanted websites. 
 
 Project 6:
+
          * In project 6 we learn about Reloading table views,inserting rows,text input in alerts,strings and UTF-16,custom closures,NSRange,using capture lists  in closure to avoid retain cycles.
