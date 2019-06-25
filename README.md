@@ -29,3 +29,11 @@ Project 5:
 Project 6:
 
          * In project 6 we learn about Reloading table views,inserting rows,text input in alerts,strings and UTF-16,custom closures,NSRange,using capture lists  in closure to avoid retain cycles.
+
+Project 7a:
+
+         * In project 7a we learn about Autolayout, Equal heights, Aspect ratio constraints in interface builder. 
+        
+Project 7b:
+
+         * In project 7b we learn about Visual Formatting Language, Anchors.
