@@ -1,6 +1,8 @@
 # SwiftGround
 
-SwiftGround is a place where one can learn Swift right from its basics. Its all about iOS projects built using Swift5.0. Find detail description about each project covered in this repository. 
+SwiftGround is a place where one can learn Swift right from its basics. Swift directory contains iOS projects built using Swift5.0 with UIKit, and SwiftUI directory contains project built using SwiftUI framework. Find detail description about each project covered in this repository. 
+
+# Swift
 
 Project 1 : 
 
@@ -36,4 +38,10 @@ Project 7a:
         
 Project 7b:
 
-         * In project 7b we learn about Visual Formatting Language, Anchors.
+         * In project 7b we learn about Visual Formatting Language, Anchors.\
+         
+# SwiftUI
+
+Project 1:
+
+         * Project1 covers latest swiftUI basics which inlcudes how to use views, stacks, animations, modifiers, assets etc.  
