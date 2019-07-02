@@ -38,10 +38,14 @@ Project 7a:
         
 Project 7b:
 
-         * In project 7b we learn about Visual Formatting Language, Anchors.\
+         * In project 7b we learn about Visual Formatting Language, Anchors.
          
 # SwiftUI
 
-Project 1:
+DesignCode1:
 
-         * Project1 covers latest swiftUI basics which inlcudes how to use views, stacks, animations, modifiers, assets etc.  
+         * This project covers latest swiftUI basics which inlcudes create views, stacks, animations, modifiers, assets etc.  
+
+DesignCode2:
+
+         *This project covers the concepts like property wrappers @State and @Binding ,Horizontal scrollview, Drag gestures, creating custom view etc.
