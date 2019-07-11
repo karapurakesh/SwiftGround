@@ -52,4 +52,4 @@ DesignCode2:
          
 DesignCode3:
 
-         * In this project i have created custom menu awesome animation also cleaned some stuff and arrainged it well. 
+         * In this project I have created custom menu with awesome animation, also cleaned some stuff and arrainged it well. 
