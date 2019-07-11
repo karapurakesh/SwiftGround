@@ -42,7 +42,7 @@ Project 7b:
 
 Project 8: 
 
-         * In Project 8, we learn about Downloading JSON with data, Codable Protocol, JSONDecoder etc.  
+         * In Project 8, we learn about Downloading JSON, Codable Protocol, JSONDecoder etc.  
          
 # SwiftUI
 
