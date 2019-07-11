@@ -21,10 +21,10 @@ struct ContentView : View {
             
             ShareMemoryTitleView()
                 .foregroundColor(.white)
-                .padding(.trailing,180)
+                .padding(.trailing, 180)
                 .padding(.top,50)
             
-            ScrollView(showsHorizontalIndicator:false) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach(0 ..< 4) { item in
                         TemplateView(viewState: self.$viewState, textAreaState: self.$textAreaState, imageState: self.$imageState)

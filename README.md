@@ -48,4 +48,8 @@ DesignCode1:
 
 DesignCode2:
 
-         *This project covers the concepts like property wrappers @State and @Binding ,Horizontal scrollview, Drag gestures, creating custom view etc.
+         * This project covers the concepts like property wrappers @State and @Binding ,Horizontal scrollview, Drag gestures, creating custom view etc.
+         
+DesignCode3:
+
+         * In this project i have created custom menu awesome animation also cleaned some stuff and arrainged it well. 

@@ -24,7 +24,7 @@ struct ContentView : View {
                 .offset(x: 0, y: -40)
                 .scaleEffect(0.85)
                 .rotationEffect(Angle(degrees: show ? 15 : 0))
-                .rotation3DEffect(Angle(degrees: show ? 50 : 0), axis: /*@START_MENU_TOKEN@*/(x: 10.0, y: 10.0, z: 10.0)/*@END_MENU_TOKEN@*/)
+                .rotation3DEffect(Angle(degrees: show ? 50 : 0), axis: (x: 10.0, y: 10.0, z: 10.0))
                 .blendMode(.hardLight)
                 .animation(.basic(duration: 0.7, curve: .easeInOut))
             
