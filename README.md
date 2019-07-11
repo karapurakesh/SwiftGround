@@ -44,6 +44,10 @@ Project 8:
 
          * In Project 8, we learn about Downloading JSON, Codable Protocol, JSONDecoder etc.  
          
+Project 9:
+
+         * In this we project we learn about GCD, Perform selectors, Quality of services and more. 
+         
 # SwiftUI
 
 DesignCode1:
