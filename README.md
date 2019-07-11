@@ -39,6 +39,10 @@ Project 7a:
 Project 7b:
 
          * In project 7b we learn about Visual Formatting Language, Anchors.
+
+Project 8: 
+
+         * In Project 8, we learn about Downloading JSON with data, Codable Protocol, JSONDecoder etc.  
          
 # SwiftUI
 
