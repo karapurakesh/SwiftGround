@@ -46,7 +46,11 @@ Project 8:
          
 Project 9:
 
-         * In this we project we learn about GCD, Perform selectors, Quality of services and more. 
+         * In this project we learn about GCD, Perform selectors, Quality of services and more. 
+         
+Project 10:
+         
+         * In this project we learn about CollectionViews, Custom classes, ImagePicker, UUID and more. 
          
 # SwiftUI
 

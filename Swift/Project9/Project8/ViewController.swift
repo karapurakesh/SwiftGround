@@ -17,6 +17,12 @@ class ViewController: UITableViewController {
         title = "Codable"
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        //The below chunk of code can be run in BG using GCD or Perform selectors. Find the below global queue for GCD. Instead Perform selector, we can keep the code in below closure.
+        
+        //DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+        //}
+
+        
         performSelector(inBackground: #selector(fetchJson), with: nil)
         
         fetchJson()
@@ -27,6 +33,7 @@ class ViewController: UITableViewController {
     @objc func fetchJson(){
         
         let urlString = "https:www.hackingwithswift.com/samples/petitions-1.json"
+        
         
         //DispatchQueue.global(qos: .userInitiated).async { [weak self] in
         
