@@ -15,10 +15,10 @@ struct ContentView : View {
         ZStack {
             
             TitleView()
-                .blur(radius: 20)
+                .blur(radius: 20.0)
             
             BottomView()
-                .blur(radius: 20)
+                .blur(radius: 20.0)
             
             CardView()
                 .offset(x: 0, y: -40)
@@ -26,23 +26,22 @@ struct ContentView : View {
                 .rotationEffect(Angle(degrees: show ? 15 : 0))
                 .rotation3DEffect(Angle(degrees: show ? 50 : 0), axis: (x: 10.0, y: 10.0, z: 10.0))
                 .blendMode(.hardLight)
-                .animation(.basic(duration: 0.7, curve: .easeInOut))
-            
+                .animation(.linear(duration: 0.7))
             CardView()
                 .offset(x: 0, y: -20)
                 .scaleEffect(0.9)
                 .rotationEffect(Angle(degrees: show ? 10 : 0))
                 .rotation3DEffect(Angle(degrees: show ? 40 : 0), axis: /*@START_MENU_TOKEN@*/(x: 10.0, y: 10.0, z: 10.0)/*@END_MENU_TOKEN@*/)
                 .blendMode(.hardLight)
-                .animation(.basic(duration: 0.5, curve: .easeInOut))
-            
+                .animation(.linear(duration: 0.7))
+
             
             CertificateView()
                 .scaleEffect(0.95)
                 .rotationEffect(Angle(degrees: show ? 5 : 0))
                 .rotation3DEffect(Angle(degrees: show ? 30 : 0), axis: /*@START_MENU_TOKEN@*/(x: 10.0, y: 10.0, z: 10.0)/*@END_MENU_TOKEN@*/)
                 .animation(.spring())
-                .tapAction {
+                .onTapGesture {
                     self.show.toggle()
             }
             
@@ -80,10 +79,10 @@ struct CertificateView : View {
                     Text("Dream App")
                         .font(.headline)
                         .fontWeight(.bold)
-                        .color(Color("accent"))
+                        .foregroundColor(.red)
                         .padding(.top)
                     
-                    Text("First Card").color(.white)
+                    Text("First Card").foregroundColor(.white)
                     
                 }
                 Spacer()

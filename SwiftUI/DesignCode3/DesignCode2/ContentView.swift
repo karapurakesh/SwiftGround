@@ -31,7 +31,7 @@ struct ContentView : View {
                         .padding(.top,80)
                         .foregroundColor(.black)
                         .padding(.trailing, 180)
-                        .animation(.fluidSpring())
+                        .animation(.spring())
                    
                    // Color(red: 199/256, green: 199/256, blue: 199/256)
                     ZStack() {
@@ -39,11 +39,11 @@ struct ContentView : View {
                         
                         VideoAttachView(textAreaState: self.$textAreaState, text: "Lots of learning from DesignCode course. Right from Stacks, modifiers, animations,assets,colors, code structuring and more. Right place to continue my journy. Thanks Meng!", color: textAreaState ? .white : .clear)
                             .scaleEffect(textAreaState ? 1.1 : 1)
-                            .animation(.fluidSpring())
+                            .animation(.spring())
                             .offset(x:0, y: textAreaState ? 200 : 0)
                             .padding(.top, 200)
                             .foregroundColor(textAreaState ? .black : .clear)
-                            .tapAction {
+                            .onTapGesture {
                                 self.textAreaState.toggle()
                         }
                         
@@ -161,12 +161,12 @@ struct TemplateView : View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 360, height: 360)
-                .animation(.fluidSpring())
+                .animation(.spring())
                 .cornerRadius(20)
                 .offset(x:self.viewState.width, y: self.viewState.height)
                 .padding(.top,20)
                 .shadow(radius: 15)
-                .tapAction {
+                .onTapGesture {
                     
                     self.textAreaState.toggle()
                 }
@@ -196,12 +196,12 @@ struct SharedByView : View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150)
-                .animation(.fluidSpring())
+                .animation(.spring())
                 .cornerRadius(20)
                 //.offset(x:self.viewState.width, y: self.viewState.height)
                 //.padding(.top,5)
                 //.shadow(radius: 15)
-                .tapAction {
+                .onTapGesture {
                     
                     // self.textAreaState.toggle()
             }

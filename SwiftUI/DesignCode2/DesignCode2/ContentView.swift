@@ -103,13 +103,13 @@ struct TemplateView : View {
                 .scaledToFit()
                 //.scaleEffect(imageState ? 1.39 : 1)
                 .frame(width: 280, height: 280)
-                .animation(.fluidSpring())
+                .animation(.spring())
                 .cornerRadius(20)
                 .offset(x: 0, y: 0)
                 .offset(x:self.viewState.width, y: self.viewState.height)
                 .padding(.top,10)
                 .shadow(radius: 15)
-                .tapAction {
+                .onTapGesture {
                     
                     
                     self.imageState.toggle()
@@ -135,7 +135,7 @@ struct TemplateView : View {
                 .font(.headline)
                 .offset(x: 0, y: 300)
                 .padding(.top,0)
-                .tapAction {
+                .onTapGesture {
                     
                     self.textAreaState.toggle()
             }
@@ -145,6 +145,6 @@ struct TemplateView : View {
             .padding(.top,0)
             .cornerRadius(20)
             //.offset(x:self.viewState.width, y: self.viewState.height)
-            .animation(.fluidSpring())
+            .animation(.spring())
     }
 }

@@ -86,7 +86,7 @@ struct MenuViewComponent : View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 42, height: 42)
                     .foregroundColor(Color.black)
-                    .tapAction {
+                    .onTapGesture {
                         self.show.toggle()
                 }
 
@@ -107,8 +107,8 @@ struct MenuViewComponent : View {
         .padding(.trailing, 60)
         .shadow(radius: 20)
         .offset(x: show ? 0 : -UIScreen.main.bounds.width)
-        .animation(.fluidSpring())
-        .tapAction {
+        .animation(.spring())
+        .onTapGesture {
            // self.show.toggle()
             
         }
@@ -139,7 +139,7 @@ struct MenuSideButton : View {
             Spacer()
         }
         .offset(x: show ? 90 : 30)
-        .animation(.basic())
+        .animation(.linear)
 }
 }
 
@@ -165,6 +165,6 @@ struct MenuBackButton : View {
             Spacer()
         }
         .offset(x: show ? 250 : -90)
-            .animation(.basic())
+            .animation(.linear)
     }
 }
