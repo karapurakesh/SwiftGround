@@ -65,3 +65,7 @@ DesignCode2:
 DesignCode3:
 
          * In this project I have created custom menu with awesome animation, also cleaned some stuff and arrainged it well. 
+
+Training :
+
+        * SwiftUi Training project explains about the basic structure of SwiftUI apps, how to build forms and sections, creating navigation views and navigation bar titles, how to store program state with the @State property wrapper, how to create user interface controls like TextField and Picker, and how to create views in a loop using ForEach.
